@@ -1,0 +1,27 @@
+{
+  "name": "node-js",
+  "version": "0.0.1",
+  "description": "training project",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgeniyHalimon/BACK.git"
+  },
+  "author": "Fabulous Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgeniyHalimon/BACK/issues"
+  },
+  "homepage": "https://github.com/EvgeniyHalimon/BACK#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
